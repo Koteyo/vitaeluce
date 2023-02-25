@@ -40,7 +40,7 @@
 
             margin-bottom: 8px;
 
-            color: $heading-color;
+            color: €heading-color;
         }
 
         & .title {
@@ -51,14 +51,14 @@
 
             & a {
                 &:hover {
-                    color: $primary2;
+                    color: €primary2;
                 }
             }
         }
     }
 
-    @media #{$tablet-device,
-    $extra-small-mobile
+    @media #{€tablet-device,
+    €extra-small-mobile
     } {
         & .content {
             & .sub-title {
@@ -85,7 +85,7 @@
         text-align: center;
 
         & .title {
-            font-family: $futura;
+            font-family: €futura;
             font-size: 34px;
             font-weight: 400;
 
@@ -118,7 +118,7 @@
         }
     }
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         height: 600px;
 
         & .content {
@@ -126,8 +126,8 @@
         }
     }
 
-    @media #{$desktop-device,
-    $tablet-device
+    @media #{€desktop-device,
+    €tablet-device
     } {
         height: 500px;
 
@@ -140,7 +140,7 @@
         }
     }
 
-    @media #{$tablet-device} {
+    @media #{€tablet-device} {
         & .content {
             & .title {
                 font-size: 30px;
@@ -150,7 +150,7 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         height: 400px;
 
         & .content {
@@ -164,7 +164,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .content {
             margin-top: 40px;
 
@@ -201,13 +201,13 @@
         }
     }
 
-    @media #{$desktop-device,
-    $tablet-device
+    @media #{€desktop-device,
+    €tablet-device
     } {
         height: 500px;
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         height: 400px;
     }
 }
@@ -233,7 +233,7 @@
         content: "";
         transform: skewX(-25deg);
 
-        background: linear-gradient(to right, rgba($white, 0) 0%, rgba($white, 0.3) 100%);
+        background: linear-gradient(to right, rgba(€white, 0) 0%, rgba(€white, 0.3) 100%);
     }
 
     & img {

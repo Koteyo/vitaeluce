@@ -21,7 +21,7 @@
             height: 100%;
 
             content: "";
-            transition: $transition;
+            transition: €transition;
 
             opacity: 0;
             background-color: #F4EDE7;
@@ -40,7 +40,7 @@
 
         padding: 20px;
 
-        transition: $transition;
+        transition: €transition;
         text-align: center;
 
         opacity: 0;
@@ -54,7 +54,7 @@
 
             & a {
                 &:hover {
-                    color: $heading-color;
+                    color: €heading-color;
                 }
             }
         }
@@ -78,11 +78,11 @@
 
                 text-transform: uppercase;
 
-                color: $heading-color;
-                border-bottom: 1px solid rgba($heading-color, 0.2);
+                color: €heading-color;
+                border-bottom: 1px solid rgba(€heading-color, 0.2);
 
                 &:hover {
-                    border-color: $heading-color;
+                    border-color: €heading-color;
                 }
             }
         }
@@ -102,7 +102,7 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .content {
             position: absolute;
             z-index: 9;
@@ -111,7 +111,7 @@
 
             padding: 20px;
 
-            transition: $transition;
+            transition: €transition;
             text-align: center;
 
             opacity: 0;
@@ -135,7 +135,7 @@
     & img {
         width: 100%;
 
-        transition: $transition;
+        transition: €transition;
     }
 
     &:hover {
@@ -176,7 +176,7 @@
                 &.name {
                     font-weight: 500;
 
-                    color: $heading-color;
+                    color: €heading-color;
                 }
 
                 &.value {
@@ -199,7 +199,7 @@
 
                     & a {
                         &:hover {
-                            color: $heading-color;
+                            color: €heading-color;
                         }
                     }
                 }
@@ -207,7 +207,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .title {
             font-size: 24px;
         }

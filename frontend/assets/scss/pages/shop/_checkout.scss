@@ -10,8 +10,8 @@
         margin-bottom: 20px;
 
         & a {
-            color: $heading-color;
-            border-bottom: 1px solid $heading-color;
+            color: €heading-color;
+            border-bottom: 1px solid €heading-color;
         }
     }
 }
@@ -22,7 +22,7 @@
     margin-bottom: 0;
     padding: 30px;
 
-    background-color: $light;
+    background-color: €light;
 
     & p {
         font-size: 16px;
@@ -42,7 +42,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & form {
             flex-wrap: wrap;
 
@@ -85,7 +85,7 @@
 
                     text-transform: none;
 
-                    color: $heading-color;
+                    color: €heading-color;
                     border: none;
                     background-color: transparent;
 
@@ -112,7 +112,7 @@
                     border-color: #EDEDED;
 
                     &.name {
-                        color: $body-light;
+                        color: €body-light;
                     }
 
                     &.total {
@@ -152,7 +152,7 @@
                     & td {
                         font-size: 24px;
 
-                        color: $primary;
+                        color: €primary;
                     }
                 }
             }
@@ -201,7 +201,7 @@
                         content: "";
                         transform: translateY(-50%);
 
-                        border: 1px solid $heading-color;
+                        border: 1px solid €heading-color;
                         border-radius: 50%;
                     }
 
@@ -215,12 +215,12 @@
                         margin-top: 2px;
 
                         content: "";
-                        transition: $transition;
+                        transition: €transition;
                         transform: translateY(-50%);
 
                         opacity: 0;
                         border-radius: 50%;
-                        background-color: $heading-color;
+                        background-color: €heading-color;
                     }
 
                     & img {
@@ -236,8 +236,8 @@
                 margin-top: 12px;
                 padding: 10px 15px;
 
-                background-color: $white;
-                box-shadow: 0 0 10px rgba($black, 0.1);
+                background-color: €white;
+                box-shadow: 0 0 10px rgba(€black, 0.1);
 
                 &::before {
                     position: absolute;
@@ -250,7 +250,7 @@
                     content: "";
                     transform: rotate(45deg);
 
-                    background-color: $white;
+                    background-color: €white;
                 }
 
                 & p {

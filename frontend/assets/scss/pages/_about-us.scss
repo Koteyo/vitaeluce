@@ -34,7 +34,7 @@
         }
 
         & .special-title {
-            font-family: $modesty;
+            font-family: €modesty;
             font-size: 56px;
             line-height: 1.25;
 
@@ -42,7 +42,7 @@
 
             margin-bottom: 5px;
 
-            color: $primary2;
+            color: €primary2;
         }
 
         & p {
@@ -56,16 +56,16 @@
 
             text-transform: uppercase;
 
-            color: $heading-color;
-            border-bottom: 1px solid rgba($heading-color, 0.2);
+            color: €heading-color;
+            border-bottom: 1px solid rgba(€heading-color, 0.2);
 
             &:hover {
-                border-color: $heading-color;
+                border-color: €heading-color;
             }
         }
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         & .inner {
             & .title {
                 font-size: 28px;
@@ -73,7 +73,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .inner {
             & .title {
                 font-size: 28px;
@@ -93,7 +93,7 @@
 
     & .inner {
         & .title {
-            font-family: $modesty;
+            font-family: €modesty;
             font-size: 80px;
             font-weight: 400;
 
@@ -123,7 +123,7 @@
 
             letter-spacing: 5px;
 
-            color: $primary2;
+            color: €primary2;
         }
 
         & .desc {
@@ -134,7 +134,7 @@
         }
     }
 
-    @media #{$tablet-device} {
+    @media #{€tablet-device} {
         & .inner {
             & .title {
                 font-size: 60px;
@@ -142,7 +142,7 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .inner {
             & .title {
                 font-size: 50px;
@@ -150,7 +150,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .inner {
             & .title {
                 &::before,
@@ -172,7 +172,7 @@
 
         margin-bottom: 20px;
 
-        color: $heading-color;
+        color: €heading-color;
     }
 
     & .title {
@@ -199,7 +199,7 @@
         display: inline-flex;
         align-items: center;
 
-        color: $heading-color;
+        color: €heading-color;
 
         &::before {
             width: 60px;
@@ -207,13 +207,13 @@
             margin-right: 10px;
 
             content: "";
-            transition: $transition;
+            transition: €transition;
 
-            background-color: $heading-color;
+            background-color: €heading-color;
         }
 
         &:hover {
-            color: $primary;
+            color: €primary;
 
             &::before {
                 width: 70px;
@@ -221,7 +221,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .title {
             font-size: 30px;
         }
@@ -244,7 +244,7 @@
 
         letter-spacing: 2px;
 
-        color: $heading-color;
+        color: €heading-color;
     }
 
     & .title {
@@ -266,13 +266,13 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .title {
             font-size: 40px;
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .title {
             font-size: 30px;
         }

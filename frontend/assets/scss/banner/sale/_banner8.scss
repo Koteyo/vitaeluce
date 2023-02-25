@@ -39,11 +39,11 @@
             letter-spacing: 1.5px;
             text-transform: uppercase;
 
-            color: $heading-color;
-            border-bottom: 1px solid rgba($heading-color, 0.2);
+            color: €heading-color;
+            border-bottom: 1px solid rgba(€heading-color, 0.2);
 
             &:hover {
-                border-color: $heading-color;
+                border-color: €heading-color;
             }
         }
     }
@@ -54,7 +54,7 @@
         }
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         & .content {
             & .title {
                 font-size: 30px;
@@ -66,7 +66,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .content {
             & .title {
                 font-size: 24px;
@@ -78,7 +78,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .content {
             left: 20px;
 

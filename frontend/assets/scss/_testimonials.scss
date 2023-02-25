@@ -2,7 +2,7 @@
 /*  12. Testimonial CSS
 /*----------------------------------------*/
 .testimonial-carousel {
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         &.slick-slider {
             margin-right: -10px;
             margin-left: -10px;
@@ -45,14 +45,14 @@
             text-align: left;
 
             & .name {
-                font-family: $futura;
+                font-family: €futura;
                 font-size: 18px;
                 font-weight: 600;
                 line-height: 1;
 
                 margin-bottom: 18px;
 
-                color: $heading-color;
+                color: €heading-color;
             }
 
             & .title {
@@ -65,12 +65,12 @@
                 letter-spacing: 1px;
                 text-transform: uppercase;
 
-                color: $body-light;
+                color: €body-light;
             }
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         text-align: center;
 
         & p {
@@ -88,7 +88,7 @@
     text-align: center;
 
     & p {
-        font-family: $marcellus;
+        font-family: €marcellus;
         font-size: 24px;
         font-weight: 400;
         line-height: 1.75;
@@ -121,14 +121,14 @@
             text-align: left;
 
             & .name {
-                font-family: $futura;
+                font-family: €futura;
                 font-size: 18px;
                 font-weight: 600;
                 line-height: 1;
 
                 margin-bottom: 18px;
 
-                color: $heading-color;
+                color: €heading-color;
             }
 
             & .title {
@@ -141,12 +141,12 @@
                 letter-spacing: 1px;
                 text-transform: uppercase;
 
-                color: $body-light;
+                color: €body-light;
             }
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & p {
             font-size: 20px;
         }
@@ -159,7 +159,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & p {
             font-size: 18px;
         }

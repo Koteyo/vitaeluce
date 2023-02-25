@@ -7,8 +7,8 @@
     margin-left: -40px;
     padding-right: 40px;
     padding-left: 40px;
-    @media #{$tablet-device,
-    $large-mobile} {
+    @media #{€tablet-device,
+    €large-mobile} {
         margin-right: -20px;
         margin-left: -20px;
         padding-right: 20px;
@@ -54,11 +54,11 @@
     height: 40px;
     padding: 0;
 
-    transition: $transition;
+    transition: €transition;
     transform: translateY(-50%);
 
     opacity: 0;
-    color: $body-color;
+    color: €body-color;
     border: none;
     background-color: transparent;
 
@@ -66,7 +66,7 @@
         font-size: 25px;
         line-height: 1;
 
-        transition: $transition;
+        transition: €transition;
     }
 
     &.slick-prev {
@@ -80,7 +80,7 @@
     }
 
     &:hover {
-        color: $heading-color;
+        color: €heading-color;
     }
 }
 
@@ -106,14 +106,14 @@
 
         margin: 0 6px;
 
-        transition: $transition;
+        transition: €transition;
 
         & button {
             width: 10px;
             height: 10px;
             padding: 0;
 
-            transition: $transition;
+            transition: €transition;
             text-indent: -9999px;
 
             opacity: 0.2;
@@ -128,7 +128,7 @@
                 height: 18px;
 
                 opacity: 1;
-                border-color: $heading-color;
+                border-color: €heading-color;
                 background-color: transparent;
             }
         }

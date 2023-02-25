@@ -18,15 +18,15 @@
         }
     }
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         height: 550px;
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         height: 450px;
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         height: 650px;
     }
 }
@@ -45,7 +45,7 @@
         text-align: center;
 
         opacity: 0;
-        color: $white;
+        color: €white;
         border: none;
         border-radius: 50%;
         background-color: #DA0E2B;
@@ -69,7 +69,7 @@
         width: 300px;
         padding: 40px;
 
-        background-color: $white;
+        background-color: €white;
 
         & .image {
             display: flex;
@@ -89,12 +89,12 @@
         }
 
         & .title {
-            font-family: $futura;
+            font-family: €futura;
             font-size: 20px;
             font-weight: 400;
             line-height: 1.2;
 
-            color: $heading-color;
+            color: €heading-color;
         }
 
         & .price {
@@ -102,7 +102,7 @@
             font-weight: 700;
             line-height: 1;
 
-            color: $heading-color;
+            color: €heading-color;
         }
 
         &.active {
@@ -115,8 +115,8 @@
         }
     }
 
-    @media #{$laptop-device,
-    $desktop-device
+    @media #{€laptop-device,
+    €desktop-device
     } {
         & .slide-pointer {
             width: 30px;
@@ -148,8 +148,8 @@
         }
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         display: flex;
         align-items: center;
@@ -177,7 +177,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .slide-pointer {
             display: none;
         }
@@ -196,16 +196,16 @@
 
     opacity: 0;
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         max-width: 500px;
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         max-width: 400px;
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         position: relative;
         top: auto;
@@ -235,7 +235,7 @@
         transform: translateY(-20%);
     }
 
-    @media #{$tablet-device} {
+    @media #{€tablet-device} {
         & .slide-product {
             right: 100%;
             left: auto;
@@ -245,7 +245,7 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .slide-product {
             right: 100%;
             left: auto;
@@ -268,16 +268,16 @@
 
     opacity: 0;
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         max-width: 700px;
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         max-width: 550px;
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         position: relative;
         top: auto;
@@ -307,8 +307,8 @@
         transform: translateY(15%);
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         & .slide-product {
             right: auto;
@@ -337,8 +337,8 @@
         transform: translateY(-50%);
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         & .slide-product {
             margin-left: 20px;
@@ -358,20 +358,20 @@
 
     opacity: 0;
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         right: 25%;
 
         max-width: 450px;
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         right: 20%;
 
         max-width: 350px;
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         position: relative;
         top: auto;
@@ -401,7 +401,7 @@
         transform: translateY(-50%);
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .slide-product {
             right: auto;
             left: 100%;
@@ -427,7 +427,7 @@
         transform: translateY(15%);
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .slide-product {
             right: 100%;
             left: auto;
@@ -452,7 +452,7 @@
     }
 
     & .sub-title {
-        font-family: $futura;
+        font-family: €futura;
         font-size: 18px;
         font-weight: 600;
         line-height: 1.25;
@@ -462,7 +462,7 @@
         transform: translateY(30px);
         letter-spacing: 5px;
 
-        color: $heading-color;
+        color: €heading-color;
     }
 
     & .title {
@@ -474,7 +474,7 @@
 
         transform: translateY(30px);
 
-        color: $heading-color;
+        color: €heading-color;
     }
 
     & .link {
@@ -490,17 +490,17 @@
             letter-spacing: 1px;
             text-transform: uppercase;
 
-            color: $heading-color;
-            border-bottom: 1px solid $heading-color;
+            color: €heading-color;
+            border-bottom: 1px solid €heading-color;
 
             &:hover {
-                color: $primary2;
-                border-color: $primary2;
+                color: €primary2;
+                border-color: €primary2;
             }
         }
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         & .sub-title {
             font-size: 16px;
 
@@ -518,8 +518,8 @@
         }
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         position: static;
 
@@ -528,7 +528,7 @@
         text-align: center;
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .sub-title {
             font-size: 16px;
 
@@ -546,13 +546,13 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .title {
             font-size: 36px;
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .sub-title {
             font-size: 14px;
         }
@@ -591,7 +591,7 @@
     & .current {
         transform: translateX(40px);
 
-        color: $heading-color;
+        color: €heading-color;
     }
 
     & .border {
@@ -604,16 +604,16 @@
         transform: translateX(40px);
 
         border: none !important;
-        background-color: $heading-color;
+        background-color: €heading-color;
     }
 
     & .total {
         transform: translateX(40px);
 
-        color: rgba($body-light, 0.5);
+        color: rgba(€body-light, 0.5);
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         font-size: 44px;
 
         & .border {
@@ -621,8 +621,8 @@
         }
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         display: none;
     }

@@ -15,7 +15,7 @@
         left: 40px;
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         height: 700px;
 
         & .swiper-pagination {
@@ -35,16 +35,16 @@
 
     padding: 0 150px;
 
-    background-image: linear-gradient(to right, #F4F3EC 0%, #F4F3EC 60%, $white 60%, $white 100%);
+    background-image: linear-gradient(to right, #F4F3EC 0%, #F4F3EC 60%, €white 60%, €white 100%);
 
-    @media #{$laptop-device,
-    $desktop-device
+    @media #{€laptop-device,
+    €desktop-device
     } {
         padding: 0 100px;
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         padding: 0 50px;
 
@@ -61,7 +61,7 @@
     & img {
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         max-width: 300px;
         margin: 0 auto;
     }
@@ -72,7 +72,7 @@
     text-align: center;
 
     & .sub-title {
-        font-family: $modesty;
+        font-family: €modesty;
         font-size: 80px;
         font-weight: 400;
         line-height: 1;
@@ -108,7 +108,7 @@
         margin-bottom: 0;
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .sub-title {
             font-size: 50px;
 
@@ -116,7 +116,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .sub-title {
             &::before,
             &::after {
@@ -125,7 +125,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .sub-title {
             font-size: 40px;
         }
@@ -140,7 +140,7 @@
     & img {
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         max-width: 300px;
         margin: 0 auto;
     }
@@ -151,7 +151,7 @@
     text-align: center;
 
     & .sub-title {
-        font-family: $modesty;
+        font-family: €modesty;
         font-size: 120px;
         font-weight: 400;
         line-height: 1;
@@ -188,17 +188,17 @@
     }
 
     & .btn {
-        color: $heading-color;
-        background-color: $white;
+        color: €heading-color;
+        background-color: €white;
 
         &:hover {
-            color: $white;
-            background-color: $heading-color;
+            color: €white;
+            background-color: €heading-color;
         }
     }
 
-    @media #{$laptop-device,
-    $desktop-device
+    @media #{€laptop-device,
+    €desktop-device
     } {
         & .sub-title {
             font-size: 90px;
@@ -209,7 +209,7 @@
         }
     }
 
-    @media #{$tablet-device} {
+    @media #{€tablet-device} {
         & .sub-title {
             font-size: 50px;
 
@@ -225,7 +225,7 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         & .sub-title {
             font-size: 80px;
 
@@ -241,7 +241,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .sub-title {
             &::before,
             &::after {
@@ -250,7 +250,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .sub-title {
             font-size: 40px;
         }
@@ -277,7 +277,7 @@
     & img {
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         max-width: 90%;
         margin: 0 auto;
     }
@@ -288,7 +288,7 @@
     text-align: center;
 
     & .sub-title {
-        font-family: $modesty;
+        font-family: €modesty;
         font-size: 70px;
         font-weight: 400;
         line-height: 1;
@@ -301,7 +301,7 @@
     }
 
     & .title {
-        font-family: $futura;
+        font-family: €futura;
         font-size: 60px;
         font-weight: 600;
         line-height: 1.25;
@@ -311,17 +311,17 @@
         letter-spacing: 14px;
         text-transform: uppercase;
 
-        color: $primary3;
+        color: €primary3;
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         & .title {
             font-size: 50px;
         }
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         & .sub-title {
             font-size: 55px;
@@ -332,7 +332,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .sub-title {
             font-size: 45px;
         }
@@ -342,7 +342,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .sub-title {
             font-size: 40px;
         }
@@ -370,25 +370,25 @@
     transform: translateY(-50%);
     letter-spacing: 5px;
 
-    color: $heading-color;
+    color: €heading-color;
 
     writing-mode: vertical-lr;
 
-    @media #{$laptop-device,
-    $desktop-device
+    @media #{€laptop-device,
+    €desktop-device
     } {
         left: 40px;
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         font-size: 14px;
 
         left: 20px;
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         font-size: 12px;
 
         left: 10px;
@@ -400,19 +400,19 @@
     right: 60px;
     left: auto;
 
-    @media #{$laptop-device,
-    $desktop-device
+    @media #{€laptop-device,
+    €desktop-device
     } {
         right: 40px;
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         right: 20px;
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         right: 10px;
     }
 }
@@ -436,33 +436,33 @@
         content: "";
         transform: translateY(-50%);
 
-        background-color: $heading-color;
+        background-color: €heading-color;
     }
 
     & a {
         font-weight: 400;
 
-        color: $heading-color;
+        color: €heading-color;
 
         &:hover {
-            color: $primary2;
+            color: €primary2;
         }
     }
 
-    @media #{$laptop-device,
-    $desktop-device
+    @media #{€laptop-device,
+    €desktop-device
     } {
         right: 40px;
     }
 
-    @media #{$tablet-device,
-    $large-mobile
+    @media #{€tablet-device,
+    €large-mobile
     } {
         right: 30px;
         bottom: 30px;
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         right: 20px;
         bottom: 20px;
 

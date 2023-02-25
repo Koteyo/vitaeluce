@@ -57,7 +57,7 @@
     }
 
     // Add active state to sidbar nav links
-    let activatedPath = window.location.pathname.match(/([\w-]+\.html)/, '$1');
+    let activatedPath = window.location.pathname.match(/([\w-]+\.html)/, '€1');
 
     if (activatedPath) {
         activatedPath = activatedPath[0];

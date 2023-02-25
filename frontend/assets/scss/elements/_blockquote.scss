@@ -7,7 +7,7 @@ blockquote {
         margin-left: 40px;
         padding: 10px 20px;
 
-        border-left: 2px solid $heading-color;
+        border-left: 2px solid €heading-color;
 
         & p {
             font-size: 18px !important;
@@ -20,7 +20,7 @@ blockquote {
             }
         }
 
-        @media #{$small-mobile} {
+        @media #{€small-mobile} {
             margin-left: 0;
         }
     }
@@ -64,7 +64,7 @@ blockquote.learts-blockquote,
 
             margin-left: auto;
 
-            color: $heading-color;
+            color: €heading-color;
 
             &::before {
                 position: absolute;
@@ -76,10 +76,10 @@ blockquote.learts-blockquote,
                 margin-right: 20px;
 
                 content: "";
-                transition: $transition;
+                transition: €transition;
                 transform: translateY(-50%);
 
-                background-color: $heading-color;
+                background-color: €heading-color;
             }
 
             &:hover {
@@ -90,7 +90,7 @@ blockquote.learts-blockquote,
         }
     }
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         padding: 50px;
 
         & .inner {
@@ -100,7 +100,7 @@ blockquote.learts-blockquote,
         }
     }
 
-    @media #{$tablet-device} {
+    @media #{€tablet-device} {
         padding: 50px;
 
         & .inner {
@@ -110,7 +110,7 @@ blockquote.learts-blockquote,
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         padding: 40px;
 
         & .inner {
@@ -120,7 +120,7 @@ blockquote.learts-blockquote,
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         padding: 30px;
 
         & .inner {
@@ -153,7 +153,7 @@ blockquote.learts-blockquote2,
 
     & .content {
         & p {
-            font-family: $marcellus;
+            font-family: €marcellus;
             font-size: 24px !important;
             font-weight: 400;
             line-height: 1.675;

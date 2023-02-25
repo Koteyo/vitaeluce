@@ -20,7 +20,7 @@
 
                 content: "";
 
-                border: 1px solid $white;
+                border: 1px solid €white;
             }
 
             & img {
@@ -44,14 +44,14 @@
             }
 
             & .text {
-                font-family: $abeezee;
+                font-family: €abeezee;
                 font-size: 16px;
                 font-weight: 400;
 
                 letter-spacing: 3px;
                 text-transform: uppercase;
 
-                color: $heading-color;
+                color: €heading-color;
             }
 
             & .btn {
@@ -60,7 +60,7 @@
         }
     }
 
-    @media #{$small-mobile} {
+    @media #{€small-mobile} {
         & .inner {
             & .image {
                 margin-bottom: 20px;

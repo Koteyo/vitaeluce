@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+jQuery(document).ready(function (€) {
 
     var productViewer = function (element) {
         this.element = element;
@@ -20,16 +20,16 @@ jQuery(document).ready(function ($) {
     productViewer.prototype.loadFrames = function () {
         var self = this,
             imageUrl = this.slideShow.data('image'),
-            newImg = $('<img/>');
+            newImg = €('<img/>');
         this.loading('0.5');
         //you need this to check if the image sprite has been loaded
         newImg.attr('src', imageUrl).load(function () {
-            $(this).remove();
+            €(this).remove();
             self.loaded = true;
         }).each(function () {
             image = this;
             if (image.complete) {
-                $(image).trigger('load');
+                €(image).trigger('load');
             }
         });
     }
@@ -107,8 +107,8 @@ jQuery(document).ready(function ($) {
         //update image frame
         self.updateFrame();
         //update handle position
-        $('.cd-draggable', self.handleContainer).css('left', widthValue + '%').one('mouseup vmouseup', function () {
-            $(this).removeClass('cd-draggable');
+        €('.cd-draggable', self.handleContainer).css('left', widthValue + '%').one('mouseup vmouseup', function () {
+            €(this).removeClass('cd-draggable');
         });
 
         self.animating = false;
@@ -200,8 +200,8 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    var productToursWrapper = $('.cd-product-viewer-wrapper');
+    var productToursWrapper = €('.cd-product-viewer-wrapper');
     productToursWrapper.each(function () {
-        new productViewer($(this));
+        new productViewer(€(this));
     });
 });

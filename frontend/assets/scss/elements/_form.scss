@@ -12,7 +12,7 @@ label {
 
     letter-spacing: 1.6px;
 
-    color: $heading-color;
+    color: €heading-color;
 
     & .required {
         font-size: 16px;
@@ -35,17 +35,17 @@ textarea {
     width: 100%;
     padding: 10px 0;
 
-    color: $heading-color;
+    color: €heading-color;
     border: 2px solid transparent;
     border-bottom-color: #EDEDED;
     background-color: transparent;
 
 @include placeholder {
-        color: $body-light;
+        color: €body-light;
     }
 
     &:focus {
-        border-bottom-color: $heading-color;
+        border-bottom-color: €heading-color;
     }
 }
 
@@ -62,7 +62,7 @@ textarea {
     input[type="checkbox"] {
         margin-top: 2px;
 
-        color: $primary;
+        color: €primary;
         &:checked {
             border-color: currentColor;
             background-color: currentColor;
@@ -95,7 +95,7 @@ fieldset {
 
         text-transform: uppercase;
 
-        color: $heading-color;
-        background-color: $white;
+        color: €heading-color;
+        background-color: €white;
     }
 }

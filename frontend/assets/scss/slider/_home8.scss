@@ -38,11 +38,11 @@
         transform: translateX(100%);
     }
 
-    @media #{$tablet-device} {
+    @media #{€tablet-device} {
         max-width: 70%;
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         max-width: 100%;
     }
 }
@@ -66,7 +66,7 @@
     }
 
     & .sub-title {
-        font-family: $modesty;
+        font-family: €modesty;
         font-size: 75px;
         font-weight: 400;
         line-height: 1.5;
@@ -75,7 +75,7 @@
 
         transform: translateY(30px);
 
-        color: $heading-color;
+        color: €heading-color;
     }
 
     & .title {
@@ -100,17 +100,17 @@
 
             text-transform: uppercase;
 
-            color: $heading-color;
-            border-bottom: 1px solid $heading-color;
+            color: €heading-color;
+            border-bottom: 1px solid €heading-color;
 
             &:hover {
-                color: $primary2;
-                border-color: $primary2;
+                color: €primary2;
+                border-color: €primary2;
             }
         }
     }
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         & .sub-title {
             font-size: 50px;
         }
@@ -120,7 +120,7 @@
         }
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         & .sub-title {
             font-size: 50px;
         }
@@ -130,7 +130,7 @@
         }
     }
 
-    @media #{$tablet-device} {
+    @media #{€tablet-device} {
         left: 70%;
 
         & .sub-title {
@@ -150,7 +150,7 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         position: relative;
         right: 0;
         left: 0;
@@ -178,7 +178,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         margin-top: -40px;
 
         & .sub-title {
@@ -216,7 +216,7 @@
     & .current {
         transform: translateX(40px);
 
-        color: $heading-color;
+        color: €heading-color;
     }
 
     & .border {
@@ -229,16 +229,16 @@
         transform: translateX(40px);
 
         border: none !important;
-        background-color: $heading-color;
+        background-color: €heading-color;
     }
 
     & .total {
         transform: translateX(40px);
 
-        color: rgba($body-light, 0.5);
+        color: rgba(€body-light, 0.5);
     }
 
-    @media #{$desktop-device} {
+    @media #{€desktop-device} {
         font-size: 44px;
 
         & .border {
@@ -246,8 +246,8 @@
         }
     }
 
-    @media #{$tablet-device,
-    $large-mobile} {
+    @media #{€tablet-device,
+    €large-mobile} {
         font-size: 40px;
 
         right: 0;
@@ -261,7 +261,7 @@
         }
     }
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         font-size: 30px;
 
         right: 5px;

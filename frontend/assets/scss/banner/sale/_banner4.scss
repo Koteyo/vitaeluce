@@ -37,7 +37,7 @@
             }
 
             & .title {
-                font-family: $modesty;
+                font-family: €modesty;
                 font-size: 80px;
                 font-weight: 400;
                 line-height: 0.9;
@@ -52,8 +52,8 @@
         }
     }
 
-    @media #{$desktop-device,
-    $small-mobile
+    @media #{€desktop-device,
+    €small-mobile
     } {
         & .inner {
             & .content {
@@ -72,7 +72,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .inner {
             & .content {
                 top: 12%;

@@ -48,10 +48,10 @@
 
     width: 100%;
 
-    transition: $transition;
+    transition: €transition;
     transform: translateY(-100%);
 
-    border-bottom: 1px solid rgba($black, 0.075);
+    border-bottom: 1px solid rgba(€black, 0.075);
 
     & .container,
     & .container-fluid {
@@ -92,13 +92,13 @@
 body.offside-header-left {
     margin-left: 400px;
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         margin-left: 300px;
     }
 
-    @media #{$desktop-device,
-    $tablet-device,
-    $large-mobile
+    @media #{€desktop-device,
+    €tablet-device,
+    €large-mobile
     } {
         margin-left: 0;
     }

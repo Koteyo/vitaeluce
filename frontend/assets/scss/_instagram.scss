@@ -20,7 +20,7 @@
             }
         }
     }
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         overflow: hidden;
         & .slick-slider {
             margin-right: -10px;
@@ -43,17 +43,17 @@
         flex: 1 0 25%;
 
         max-width: 25%;
-        @media #{$tablet-device} {
+        @media #{€tablet-device} {
             flex: 1 0 33.3333%;
 
             max-width: 33.3333%;
         }
-        @media #{$large-mobile} {
+        @media #{€large-mobile} {
             flex: 1 0 50%;
 
             max-width: 50%;
         }
-        @media #{$extra-small-mobile} {
+        @media #{€extra-small-mobile} {
             flex: 1 0 100%;
 
             max-width: 100%;
@@ -75,10 +75,10 @@
         height: 100%;
 
         content: "";
-        transition: $transition;
+        transition: €transition;
 
         opacity: 0;
-        background-color: $black;
+        background-color: €black;
     }
     & img {
         width: 100%;
@@ -100,11 +100,11 @@
         margin-top: -15px;
         margin-left: -15px;
 
-        transition: $transition;
+        transition: €transition;
         transform: scale(1.5);
 
         opacity: 0;
-        color: $white;
+        color: €white;
     }
     &:hover {
         &::before {

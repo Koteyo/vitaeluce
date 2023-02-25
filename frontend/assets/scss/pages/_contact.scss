@@ -3,7 +3,7 @@
 /* Contact Information */
 .contact-info {
     & .title {
-        font-family: $futura;
+        font-family: €futura;
         font-size: 18px;
         font-weight: 500;
         line-height: 1.5;
@@ -44,7 +44,7 @@
     width: 100%;
     height: 500px;
 
-    @media #{$large-mobile} {
+    @media #{€large-mobile} {
         height: 350px;
     }
 }

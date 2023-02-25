@@ -38,7 +38,7 @@
             }
 
             & .title {
-                font-family: $modesty;
+                font-family: €modesty;
                 font-size: 80px;
                 font-weight: 400;
                 line-height: 0.9;
@@ -58,17 +58,17 @@
                 letter-spacing: 1.5px;
                 text-transform: uppercase;
 
-                color: $heading-color;
-                border-bottom: 1px solid rgba($heading-color, 0.2);
+                color: €heading-color;
+                border-bottom: 1px solid rgba(€heading-color, 0.2);
 
                 &:hover {
-                    border-color: $heading-color;
+                    border-color: €heading-color;
                 }
             }
         }
     }
 
-    @media #{$laptop-device} {
+    @media #{€laptop-device} {
         & .inner {
             & .content {
                 & .title {
@@ -89,8 +89,8 @@
         }
     }
 
-    @media #{$desktop-device,
-    $large-mobile
+    @media #{€desktop-device,
+    €large-mobile
 
     } {
         & .inner {
@@ -113,7 +113,7 @@
         }
     }
 
-    @media #{$extra-small-mobile} {
+    @media #{€extra-small-mobile} {
         & .inner {
             & .content {
                 & .title {
