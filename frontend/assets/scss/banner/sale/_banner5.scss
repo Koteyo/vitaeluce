@@ -32,13 +32,13 @@
                 font-weight: 600;
                 line-height: 1;
 
-                color: €heading-color;
+                color: $heading-color;
             }
         }
     }
 
-    @media #{€desktop-device,
-    €small-mobile
+    @media #{$desktop-device,
+    $small-mobile
 
     } {
         & .inner {
@@ -55,7 +55,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .inner {
             & .content {
                 left: 20px;

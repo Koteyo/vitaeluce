@@ -23,7 +23,7 @@
         }
 
         &:hover {
-            color: €heading-color;
+            color: $heading-color;
         }
 
         &.active {
@@ -33,8 +33,8 @@
         }
     }
 
-    @media #{€tablet-device,
-    €large-mobile
+    @media #{$tablet-device,
+    $large-mobile
     } {
         margin-right: 0;
     }
@@ -93,10 +93,10 @@
 
                 text-transform: capitalize;
 
-                color: €body-light;
+                color: $body-light;
 
                 &:hover {
-                    color: €primary;
+                    color: $primary;
                 }
             }
         }

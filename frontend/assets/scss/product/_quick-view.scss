@@ -43,7 +43,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .modal-dialog {
             & .modal-content {
                 padding: 20px;

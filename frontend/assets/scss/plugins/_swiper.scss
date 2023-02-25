@@ -38,17 +38,17 @@
     height: 40px;
     margin-top: 0 !important;
 
-    transition: €transition;
+    transition: $transition;
     transform: translateY(-50%);
 
     opacity: 0;
-    color: €body-color;
+    color: $body-color;
 
     & i {
         font-size: 25px;
         line-height: 1;
 
-        transition: €transition;
+        transition: $transition;
     }
 
     &::after {
@@ -56,7 +56,7 @@
     }
 
     &:hover {
-        color: €heading-color;
+        color: $heading-color;
     }
 }
 
@@ -79,7 +79,7 @@
         max-height: 10px;
         margin: 6px !important;
 
-        transition: €transition;
+        transition: $transition;
 
         border: 1px solid transparent;
         background-color: #1F1F1F;
@@ -90,7 +90,7 @@
             height: 18px;
             max-height: 18px;
 
-            border-color: €heading-color;
+            border-color: $heading-color;
             background-color: transparent;
         }
     }

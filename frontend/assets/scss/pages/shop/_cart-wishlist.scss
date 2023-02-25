@@ -48,10 +48,10 @@
                         font-size: 16px;
                         font-weight: 400;
 
-                        color: €body-color;
+                        color: $body-color;
 
                         &:hover {
-                            color: €heading-color;
+                            color: $heading-color;
                         }
                     }
                 }
@@ -68,10 +68,10 @@
 
                         padding: 5px 10px;
 
-                        color: €body-color;
+                        color: $body-color;
 
                         &:hover {
-                            color: €danger;
+                            color: $danger;
                         }
                     }
                 }
@@ -79,7 +79,7 @@
         }
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         & thead {
             display: none;
         }
@@ -172,10 +172,10 @@
 
         & tbody {
             & tr {
-                font-family: €futura;
+                font-family: $futura;
                 font-weight: 700;
 
-                color: €heading-color;
+                color: $heading-color;
 
                 &.subtotal {
                     & td {
@@ -209,8 +209,8 @@
     & .btn {
     }
 
-    @media #{€tablet-device,
-    €large-mobile
+    @media #{$tablet-device,
+    $large-mobile
     } {
         width: 100%;
     }

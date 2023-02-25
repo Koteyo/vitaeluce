@@ -15,15 +15,15 @@
         transform: translate(0, 0);
 
         opacity: 1;
-        color: €body-light;
-        background-color: €white;
+        color: $body-light;
+        background-color: $white;
 
         & i {
             font-size: 18px;
         }
 
         &:hover {
-            color: €heading-color;
+            color: $heading-color;
             background-color: #F5EDE6;
         }
     }
@@ -36,11 +36,11 @@
         right: 0;
     }
 
-    @media #{€desktop-device} {
+    @media #{$desktop-device} {
         height: 450px;
     }
 
-    @media #{€tablet-device} {
+    @media #{$tablet-device} {
         height: 350px;
 
         & [class*="swiper-button"] {
@@ -53,7 +53,7 @@
         }
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         height: 300px;
 
         & [class*="swiper-button"] {
@@ -70,7 +70,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         height: 250px;
 
         & [class*="swiper-button"] {
@@ -83,7 +83,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         height: 200px;
 
         & [class*="swiper-button"] {
@@ -120,7 +120,7 @@
     }
 
     & .sub-title {
-        font-family: €modesty;
+        font-family: $modesty;
         font-size: 52px;
         font-weight: 400;
         line-height: 1;
@@ -129,7 +129,7 @@
 
         transform: translateY(30px);
 
-        color: €primary2;
+        color: $primary2;
     }
 
     & .title {
@@ -149,7 +149,7 @@
         }
     }
 
-    @media #{€desktop-device} {
+    @media #{$desktop-device} {
         & .sub-title {
             font-size: 44px;
 
@@ -161,7 +161,7 @@
         }
     }
 
-    @media #{€tablet-device} {
+    @media #{$tablet-device} {
         & .sub-title {
             font-size: 36px;
 
@@ -179,7 +179,7 @@
         }
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         & .sub-title {
             font-size: 30px;
 
@@ -199,7 +199,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .sub-title {
             font-size: 24px;
 

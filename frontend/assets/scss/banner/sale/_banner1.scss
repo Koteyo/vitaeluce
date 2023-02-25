@@ -24,14 +24,14 @@
         }
 
         & .title {
-            font-family: €modesty;
+            font-family: $modesty;
             font-size: 80px;
             font-weight: 300;
             line-height: 1;
 
             margin-bottom: 3px;
 
-            color: €heading-color;
+            color: $heading-color;
         }
 
         & .sale-percent {
@@ -62,23 +62,23 @@
 
             text-transform: uppercase;
 
-            color: €heading-color;
+            color: $heading-color;
             border-bottom: 1px solid transparent;
 
             &:hover {
-                border-color: rgba(€heading-color, 0.2);
+                border-color: rgba($heading-color, 0.2);
             }
         }
     }
 
-    @media #{€desktop-device} {
+    @media #{$desktop-device} {
         & .inner {
             transform: scale(0.8);
         }
     }
 
-    @media #{€tablet-device,
-    €extra-small-mobile
+    @media #{$tablet-device,
+    $extra-small-mobile
     } {
         & .inner {
             transform: scale(0.7);

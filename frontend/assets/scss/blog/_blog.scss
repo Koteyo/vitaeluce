@@ -43,8 +43,8 @@
                     border-bottom: 1px solid transparent;
 
                     &:hover {
-                        color: €heading-color;
-                        border-color: rgba(€heading-color, 0.2);
+                        color: $heading-color;
+                        border-color: rgba($heading-color, 0.2);
                     }
                 }
             }
@@ -58,7 +58,7 @@
 
             & a {
                 &:hover {
-                    color: €heading-color;
+                    color: $heading-color;
                 }
             }
         }
@@ -81,11 +81,11 @@
 
             text-transform: uppercase;
 
-            color: €heading-color;
-            border-bottom: 1px solid rgba(€heading-color, 0.2);
+            color: $heading-color;
+            border-bottom: 1px solid rgba($heading-color, 0.2);
 
             &:hover {
-                border-color: €heading-color;
+                border-color: $heading-color;
             }
         }
     }

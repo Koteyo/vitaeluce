@@ -1,12 +1,12 @@
 /* 03.02. Ion Range Slider */
 
 .irs--learts {
-    font-family: €futura;
+    font-family: $futura;
 
     margin: 7px 0 40px;
 
     & .irs {
-        font-family: €futura;
+        font-family: $futura;
 
         position: relative;
 
@@ -58,7 +58,7 @@
 
         height: 5px;
 
-        background-color: €heading-color;
+        background-color: $heading-color;
     }
 
     & .irs-handle {
@@ -71,7 +71,7 @@
         text-indent: -9999px;
 
         border-radius: 50%;
-        background-color: €heading-color;
+        background-color: $heading-color;
 
         &.from {
         }

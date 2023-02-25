@@ -30,10 +30,10 @@
                 height: calc(100% - 30px);
 
                 content: "";
-                transition: €transition;
+                transition: $transition;
 
                 opacity: 0;
-                border: 1px solid €white;
+                border: 1px solid $white;
             }
 
             & img {
@@ -53,7 +53,7 @@
                 margin: 0;
 
                 & .number {
-                    font-family: €futura;
+                    font-family: $futura;
                     font-size: 16px;
                     line-height: 1;
 
@@ -61,14 +61,14 @@
 
                     padding-left: 5px;
 
-                    color: €heading-color;
+                    color: $heading-color;
                 }
             }
         }
     }
 
     & .banner-desc {
-        font-family: €futura;
+        font-family: $futura;
         font-size: 16px;
         font-weight: 600;
 
@@ -79,7 +79,7 @@
         white-space: nowrap;
         letter-spacing: 3px;
 
-        color: €body-color;
+        color: $body-color;
 
         writing-mode: vertical-rl;
 
@@ -106,8 +106,8 @@
         }
     }
 
-    @media #{€tablet-device,
-    €large-mobile
+    @media #{$tablet-device,
+    $large-mobile
     } {
         & .inner {
             & .content {

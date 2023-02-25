@@ -50,7 +50,7 @@
 
                 display: block;
 
-                transition: €transition;
+                transition: $transition;
 
                 color: #999999;
             }
@@ -67,7 +67,7 @@
 
             & .content {
                 & .number {
-                    color: €heading-color;
+                    color: $heading-color;
                 }
             }
         }

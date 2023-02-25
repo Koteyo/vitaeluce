@@ -34,10 +34,10 @@
                 height: calc(100% - 30px);
 
                 content: "";
-                transition: €transition;
+                transition: $transition;
 
                 opacity: 0;
-                border: 1px solid €white;
+                border: 1px solid $white;
             }
         }
 
@@ -53,18 +53,18 @@
 
 
             & .title {
-                font-family: €modesty;
+                font-family: $modesty;
                 font-size: 80px;
                 font-weight: 400;
                 line-height: 1;
 
                 margin-bottom: 10px;
 
-                color: €body-color;
+                color: $body-color;
             }
 
             & .sub-title {
-                font-family: €futura;
+                font-family: $futura;
                 font-size: 34px;
                 font-weight: 700;
                 line-height: 1;
@@ -74,7 +74,7 @@
                 letter-spacing: 10px;
                 text-transform: uppercase;
 
-                color: €primary3;
+                color: $primary3;
             }
         }
     }
@@ -93,8 +93,8 @@
         }
     }
 
-    @media #{€desktop-device,
-    €small-mobile
+    @media #{$desktop-device,
+    $small-mobile
     } {
         & .inner {
             & .content {
@@ -109,7 +109,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .inner {
             & .content {
                 & .title {

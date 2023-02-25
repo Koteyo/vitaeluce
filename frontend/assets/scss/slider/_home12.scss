@@ -22,15 +22,15 @@
 
     height: 645px;
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         height: 550px;
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         height: 500px;
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         height: 450px;
     }
 }
@@ -65,7 +65,7 @@
 
         transform: scale(0.85);
 
-        background-color: €white;
+        background-color: $white;
 
         &::before {
             position: absolute;
@@ -77,12 +77,12 @@
 
             content: "";
 
-            border: 1px dashed €primary2;
+            border: 1px dashed $primary2;
         }
     }
 
     & .sub-title {
-        font-family: €modesty;
+        font-family: $modesty;
         font-size: 55px;
         font-weight: 400;
         line-height: 1.25;
@@ -93,7 +93,7 @@
 
         transform: translateY(30px);
 
-        color: €primary2;
+        color: $primary2;
     }
 
     & .title {
@@ -106,14 +106,14 @@
         transform: translateY(30px);
         letter-spacing: 3px;
 
-        color: €heading-color;
+        color: $heading-color;
     }
 
     & .price {
         transform: translateY(30px);
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         max-width: 450px;
 
         & .sub-title {
@@ -125,7 +125,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .sub-title {
             font-size: 40px;
         }
@@ -172,7 +172,7 @@
         transform: scale(0.85);
 
         border-radius: 50%;
-        background-color: €white;
+        background-color: $white;
     }
 
     & .icon {
@@ -182,7 +182,7 @@
     }
 
     & .title {
-        font-family: €modesty;
+        font-family: $modesty;
         font-size: 80px;
         font-weight: 300;
         line-height: 1;
@@ -210,17 +210,17 @@
 
             text-transform: uppercase;
 
-            color: €heading-color;
-            border-bottom: 1px solid €heading-color;
+            color: $heading-color;
+            border-bottom: 1px solid $heading-color;
 
             &:hover {
-                color: €primary2;
-                border-color: €primary2;
+                color: $primary2;
+                border-color: $primary2;
             }
         }
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         width: 400px;
         height: 400px;
 
@@ -238,7 +238,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         width: 350px;
         height: 350px;
 
@@ -256,7 +256,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         width: 300px;
         height: 300px;
 
@@ -290,7 +290,7 @@
     }
 
     & .title {
-        font-family: €modesty;
+        font-family: $modesty;
         font-size: 76px;
         font-weight: 300;
         line-height: 1;
@@ -299,7 +299,7 @@
 
         transform: translateY(30px);
 
-        color: €primary2;
+        color: $primary2;
     }
 
     & .sub-title {
@@ -319,7 +319,7 @@
         transform: translateY(30px);
         text-align: center;
 
-        color: €black;
+        color: $black;
 
         & img {
             position: absolute;
@@ -344,7 +344,7 @@
     }
 
     & .price {
-        font-family: €marcellus;
+        font-family: $marcellus;
         font-size: 20px;
         font-weight: 400;
         line-height: 1.4;
@@ -359,14 +359,14 @@
         letter-spacing: 2px;
         text-transform: uppercase;
 
-        color: €white;
+        color: $white;
         background-image: url("../images/slider/home1/slide-3-3.webp");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         margin-top: 60px;
 
         & .title {
@@ -386,7 +386,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         margin-top: 60px;
 
         & .title {
@@ -406,7 +406,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .title {
             font-size: 40px;
         }

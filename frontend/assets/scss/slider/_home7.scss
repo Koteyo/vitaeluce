@@ -16,19 +16,19 @@
         }
     }
 
-    @media #{€tablet-device} {
+    @media #{$tablet-device} {
         height: 650px;
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         height: 550px;
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         height: 500px;
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         height: 450px;
     }
 }
@@ -54,7 +54,7 @@
     }
 
     & .name {
-        font-family: €modesty;
+        font-family: $modesty;
         font-size: 120px;
         line-height: 1.2;
 
@@ -68,7 +68,7 @@
     }
 
     & .title {
-        font-family: €futura;
+        font-family: $futura;
         font-size: 55px;
         font-weight: 500;
         line-height: 1.25;
@@ -79,10 +79,10 @@
         letter-spacing: 20px;
         text-transform: uppercase;
 
-        color: €primary3;
+        color: $primary3;
     }
 
-    @media #{€tablet-device} {
+    @media #{$tablet-device} {
         & .name {
             font-size: 90px;
         }
@@ -94,7 +94,7 @@
         }
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         & .name {
             font-size: 70px;
 
@@ -108,7 +108,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         & .name {
             font-size: 50px;
 
@@ -159,9 +159,9 @@
         letter-spacing: 2px;
         text-transform: uppercase;
 
-        color: €heading-color;
+        color: $heading-color;
         border-radius: 50%;
-        background-color: €white;
+        background-color: $white;
 
         & .amount {
             font-size: 24px;
@@ -177,7 +177,7 @@
         animation: hero7SlideUpDown 2s linear infinite alternate both;
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         & .price {
             font-size: 10px;
 
@@ -193,7 +193,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .price {
             top: -10px;
         }
@@ -226,7 +226,7 @@
     }
 
     & .sub-title {
-        font-family: €modesty;
+        font-family: $modesty;
         font-size: 70px;
         line-height: 1;
 
@@ -278,7 +278,7 @@
         transform: translateY(-30px);
     }
 
-    @media #{€tablet-device} {
+    @media #{$tablet-device} {
         & .sub-title {
             font-size: 60px;
         }
@@ -288,7 +288,7 @@
         }
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         & .sub-title {
             font-size: 50px;
         }
@@ -300,7 +300,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         & .sub-title {
             font-size: 40px;
         }
@@ -318,7 +318,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .sub-title {
             font-size: 26px;
         }

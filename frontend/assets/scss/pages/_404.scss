@@ -7,8 +7,8 @@
 
     min-height: 100vh;
 
-    @media #{€tablet-device,
-    €large-mobile
+    @media #{$tablet-device,
+    $large-mobile
     } {
         min-height: calc(100vh - 70px);
     }
@@ -51,7 +51,7 @@
         }
     }
 
-    @media #{€large-mobile} {
+    @media #{$large-mobile} {
         padding: 100px 0 60px;
 
         & .title {
@@ -63,7 +63,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         & .title {
             font-size: 60px;
         }

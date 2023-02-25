@@ -19,7 +19,7 @@
             }
         }
 
-        @media #{€laptop-device} {
+        @media #{$laptop-device} {
             padding-right: 35px;
             padding-left: 35px;
 
@@ -29,7 +29,7 @@
             }
         }
 
-        @media #{€desktop-device} {
+        @media #{$desktop-device} {
             padding-right: 0;
             padding-left: 0;
 
@@ -38,7 +38,7 @@
             }
         }
 
-        @media #{€tablet-device} {
+        @media #{$tablet-device} {
             padding-right: 0;
             padding-left: 0;
 

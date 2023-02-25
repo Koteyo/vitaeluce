@@ -53,8 +53,8 @@
                 border-bottom: 2px solid transparent;
 
                 &:hover {
-                    color: €heading-color;
-                    border-color: rgba(€heading-color, 0.2);
+                    color: $heading-color;
+                    border-color: rgba($heading-color, 0.2);
                 }
             }
         }
@@ -96,8 +96,8 @@
                 border-bottom: 1px solid transparent;
 
                 &:hover {
-                    color: €heading-color;
-                    border-color: rgba(€heading-color, 0.2);
+                    color: $heading-color;
+                    border-color: rgba($heading-color, 0.2);
                 }
             }
         }
@@ -142,8 +142,8 @@
                 border-bottom: 1px solid transparent;
 
                 &:hover {
-                    color: €heading-color;
-                    border-color: rgba(€heading-color, 0.2);
+                    color: $heading-color;
+                    border-color: rgba($heading-color, 0.2);
                 }
             }
         }
@@ -174,7 +174,7 @@
         margin-bottom: 40px;
         padding-bottom: 25px;
 
-        border-bottom: 1px solid rgba(€black, 0.1);
+        border-bottom: 1px solid rgba($black, 0.1);
     }
 
     & .post-share {
@@ -199,7 +199,7 @@
             padding: 3px 0;
 
             cursor: pointer;
-            transition: €transition;
+            transition: $transition;
 
             border: 2px solid #EDEDED;
             border-radius: 100%;
@@ -209,9 +209,9 @@
             }
 
             &:hover {
-                color: €white;
-                border-color: €heading-color;
-                background-color: €heading-color;
+                color: $white;
+                border-color: $heading-color;
+                background-color: $heading-color;
             }
         }
 
@@ -230,11 +230,11 @@
 
             list-style: none;
 
-            transition: €transition;
+            transition: $transition;
 
             opacity: 0;
-            background-color: €white;
-            box-shadow: 0 0 10px rgba(€black, 0.1);
+            background-color: $white;
+            box-shadow: 0 0 10px rgba($black, 0.1);
 
             &::before {
                 position: absolute;
@@ -264,7 +264,7 @@
                     }
 
                     &:hover {
-                        color: €heading-color;
+                        color: $heading-color;
                     }
                 }
             }
@@ -272,9 +272,9 @@
 
         &.active {
             & .toggle {
-                color: €white;
-                border-color: €heading-color;
-                background-color: €heading-color;
+                color: $white;
+                border-color: $heading-color;
+                background-color: $heading-color;
             }
 
             & .social-list {
@@ -287,7 +287,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         & .title {
             font-size: 24px;
         }
@@ -336,7 +336,7 @@
                 }
 
                 &:hover {
-                    color: €heading-color;
+                    color: $heading-color;
                 }
             }
         }
@@ -356,7 +356,7 @@
 
             margin-bottom: 15px;
 
-            color: €heading-color;
+            color: $heading-color;
         }
 
         & p {
@@ -365,7 +365,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         & .content {
             width: 100%;
             padding-top: 20px;
@@ -397,7 +397,7 @@
         padding-left: 110px;
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         & .comment {
             padding-left: 0;
         }
@@ -431,7 +431,7 @@
         padding-left: 20px;
 
         & .name {
-            font-family: €futura;
+            font-family: $futura;
             font-size: 18px;
             font-weight: 700;
             line-height: 1;
@@ -467,13 +467,13 @@
                 font-weight: 700;
 
                 &:hover {
-                    color: €heading-color;
+                    color: $heading-color;
                 }
             }
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         & .content {
             width: 100%;
             padding-top: 20px;

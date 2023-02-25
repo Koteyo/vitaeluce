@@ -29,7 +29,7 @@
 
                 content: "";
 
-                border: 1px solid €white;
+                border: 1px solid $white;
             }
 
             & img {
@@ -50,12 +50,12 @@
 
                 & a {
                     &:hover {
-                        color: €heading-color;
+                        color: $heading-color;
                     }
                 }
 
                 & .number {
-                    font-family: €futura;
+                    font-family: $futura;
                     font-size: 16px;
                     line-height: 1;
 
@@ -63,7 +63,7 @@
 
                     align-self: center;
 
-                    color: €heading-color;
+                    color: $heading-color;
 
                     &::before {
                         position: absolute;

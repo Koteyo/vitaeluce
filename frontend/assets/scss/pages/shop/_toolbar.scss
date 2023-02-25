@@ -26,13 +26,13 @@
 
         &:hover,
         &.active {
-            color: €heading-color;
+            color: $heading-color;
         }
     }
 
-    @media #{€desktop-device,
-    €tablet-device,
-    €large-mobile
+    @media #{$desktop-device,
+    $tablet-device,
+    $large-mobile
     } {
         margin: 0 -15px -10px;
 
@@ -43,7 +43,7 @@
         }
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         margin: 0 -10px -10px;
 
         & button {
@@ -68,9 +68,9 @@
         margin: 0 15px;
     }
 
-    @media #{€desktop-device,
-    €tablet-device,
-    €large-mobile
+    @media #{$desktop-device,
+    $tablet-device,
+    $large-mobile
     } {
         justify-content: space-between;
     }
@@ -90,7 +90,7 @@
         border-radius: 0;
 
         &::after {
-            font-family: €fontAwesome5Pro;
+            font-family: $fontAwesome5Pro;
             font-weight: 700;
             line-height: 1;
 
@@ -125,7 +125,7 @@
             transform: scale(1) translate(0, 0);
 
             border-radius: 0;
-            box-shadow: 0 3px 5px rgba(€black, 0.15);
+            box-shadow: 0 3px 5px rgba($black, 0.15);
 
             & li {
                 font-size: 16px;
@@ -136,7 +136,7 @@
                 padding: 8px;
 
                 &.selected {
-                    color: €heading-color;
+                    color: $heading-color;
                     background-color: transparent;
                 }
 
@@ -176,7 +176,7 @@
 
         &:hover,
         &.active {
-            color: €heading-color;
+            color: $heading-color;
         }
     }
 }
@@ -192,10 +192,10 @@
     display: flex;
     align-items: center;
 
-    color: €body-color;
+    color: $body-color;
 
     &::before {
-        font-family: €fontAwesome5Pro;
+        font-family: $fontAwesome5Pro;
         font-size: 13px;
         line-height: 1;
 
@@ -203,7 +203,7 @@
         margin-bottom: -3px;
 
         content: "\f0b0";
-        transition: €transition;
+        transition: $transition;
     }
 
     &::after {
@@ -215,13 +215,13 @@
         height: 1px;
 
         content: "";
-        transition: €transition;
+        transition: $transition;
 
-        background-color: €heading-color;
+        background-color: $heading-color;
     }
 
     &:hover {
-        color: €heading-color;
+        color: $heading-color;
 
         &::after {
             right: auto;
@@ -232,7 +232,7 @@
     }
 
     &.active {
-        color: €heading-color;
+        color: $heading-color;
 
         &::before {
             transform: rotate(180deg);

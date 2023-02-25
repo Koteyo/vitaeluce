@@ -7,10 +7,10 @@
 
     text-align: center;
 
-    border: 3px solid rgba(€primary2, 0.4);
+    border: 3px solid rgba($primary2, 0.4);
 
     & .special-title {
-        font-family: €modesty;
+        font-family: $modesty;
         font-size: 56px;
         line-height: 1.25;
 
@@ -18,7 +18,7 @@
 
         margin-bottom: 25px;
 
-        color: €primary2;
+        color: $primary2;
     }
 
     & .title {
@@ -31,7 +31,7 @@
         margin-bottom: 48px;
 
         &::before {
-            font-family: €futura;
+            font-family: $futura;
             font-size: 100px;
             font-weight: 700;
             line-height: 1;
@@ -61,15 +61,15 @@
         letter-spacing: 1px;
         text-transform: uppercase;
 
-        color: €heading-color;
-        border-bottom: 1px solid rgba(€heading-color, 0.2);
+        color: $heading-color;
+        border-bottom: 1px solid rgba($heading-color, 0.2);
 
         &:hover {
-            border-color: €heading-color;
+            border-color: $heading-color;
         }
     }
 
-    @media #{€desktop-device} {
+    @media #{$desktop-device} {
         & .title {
             font-size: 32px;
 
@@ -104,7 +104,7 @@
         transform: translateY(-50%);
 
         & .special-title {
-            font-family: €modesty;
+            font-family: $modesty;
             font-size: 56px;
             line-height: 1.25;
 
@@ -112,7 +112,7 @@
 
             margin-bottom: 25px;
 
-            color: €primary2;
+            color: $primary2;
         }
 
         & .title {
@@ -135,17 +135,17 @@
             letter-spacing: 1px;
             text-transform: uppercase;
 
-            color: €heading-color;
-            border-bottom: 1px solid rgba(€heading-color, 0.2);
+            color: $heading-color;
+            border-bottom: 1px solid rgba($heading-color, 0.2);
 
             &:hover {
-                border-color: €heading-color;
+                border-color: $heading-color;
             }
         }
     }
 
-    @media #{€desktop-device,
-    €tablet-device
+    @media #{$desktop-device,
+    $tablet-device
     } {
         & .content {
             & .title {
@@ -154,7 +154,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .content {
             & .special-title {
                 font-size: 44px;

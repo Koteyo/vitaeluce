@@ -30,10 +30,10 @@
                 height: calc(100% - 30px);
 
                 content: "";
-                transition: €transition;
+                transition: $transition;
 
                 opacity: 0;
-                border: 1px solid €white;
+                border: 1px solid $white;
             }
 
             & img {
@@ -60,7 +60,7 @@
                 margin: 0;
 
                 & .number {
-                    font-family: €futura;
+                    font-family: $futura;
                     font-size: 16px;
                     line-height: 1;
 
@@ -68,7 +68,7 @@
 
                     padding-left: 5px;
 
-                    color: €heading-color;
+                    color: $heading-color;
                 }
             }
         }
@@ -88,8 +88,8 @@
         }
     }
 
-    @media #{€tablet-device,
-    €large-mobile
+    @media #{$tablet-device,
+    $large-mobile
     } {
         & .inner {
             & .content {
@@ -100,8 +100,8 @@
         }
     }
 
-    @media #{€tablet-device,
-    €small-mobile
+    @media #{$tablet-device,
+    $small-mobile
     } {
         & .inner {
             & .content {
@@ -110,7 +110,7 @@
         }
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         & .inner {
             & .content {
                 padding: 0 25px 20px;

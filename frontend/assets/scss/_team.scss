@@ -13,7 +13,7 @@
         & img {
             width: 100%;
 
-            transition: €transition;
+            transition: $transition;
         }
 
         &::before {
@@ -28,10 +28,10 @@
             height: 100%;
 
             content: "";
-            transition: €transition;
+            transition: $transition;
 
             opacity: 0;
-            background-color: rgba(€heading-color, 0.8);
+            background-color: rgba($heading-color, 0.8);
         }
 
         &::after {
@@ -46,10 +46,10 @@
             height: calc(100% - 40px);
 
             content: "";
-            transition: €transition;
+            transition: $transition;
 
             opacity: 0;
-            border: 1px solid rgba(€white, 0.8);
+            border: 1px solid rgba($white, 0.8);
             background-color: transparent;
         }
 
@@ -78,14 +78,14 @@
                 margin: 0 10px;
                 padding: 0 5px;
 
-                color: €white;
+                color: $white;
 
                 & i {
                     font-size: 18px;
                 }
 
                 &:hover {
-                    color: €primary;
+                    color: $primary;
                 }
             }
         }
@@ -93,11 +93,11 @@
 
     & .content {
         & .name {
-            font-family: €futura;
+            font-family: $futura;
             font-size: 18px;
             font-weight: 600;
 
-            color: €heading-color;
+            color: $heading-color;
         }
 
         & .title {
@@ -107,7 +107,7 @@
             letter-spacing: 1px;
             text-transform: uppercase;
 
-            color: €body-light;
+            color: $body-light;
         }
     }
 

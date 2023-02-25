@@ -6,11 +6,11 @@
 
     padding: 60px;
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         padding: 40px;
     }
 
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         padding: 30px;
     }
 }
@@ -39,7 +39,7 @@
         }
 
         & a {
-            color: €heading-color;
+            color: $heading-color;
         }
     }
 }

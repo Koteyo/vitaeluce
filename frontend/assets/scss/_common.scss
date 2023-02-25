@@ -33,7 +33,7 @@ body,
 }
 
 body {
-    font-family: €body-font,
+    font-family: $body-font,
     Arial,
     Helvetica,
     sans-serif;
@@ -47,8 +47,8 @@ body {
     visibility: visible;
     overflow-x: hidden;
 
-    color: €body-color;
-    background-color: €white;
+    color: $body-color;
+    background-color: $white;
 }
 
 h1,
@@ -57,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: €heading-font,
+    font-family: $heading-font,
     Arial,
     Helvetica,
     sans-serif;
@@ -66,7 +66,7 @@ h6 {
 
     margin-top: 0;
 
-    color: €heading-color;
+    color: $heading-color;
 }
 
 .h1,
@@ -100,7 +100,7 @@ a,
 button,
 img,
 input {
-    transition: €transition;
+    transition: $transition;
 }
 
 *:focus {
@@ -117,7 +117,7 @@ a:focus {
 a:hover {
     text-decoration: none;
 
-    color: €primary;
+    color: $primary;
 }
 
 button,
@@ -172,7 +172,7 @@ hr {
         }
     }
 
-    @media #{€laptop-device} {
+    @media #{$laptop-device} {
         padding-right: 35px;
         padding-left: 35px;
 
@@ -182,8 +182,8 @@ hr {
         }
     }
 
-    @media #{€desktop-device,
-    €tablet-device
+    @media #{$desktop-device,
+    $tablet-device
     } {
         padding-right: 25px;
         padding-left: 25px;
@@ -223,33 +223,33 @@ hr {
         max-width: 1200px;
     }
 
-    @media #{€small-mobile} {
+    @media #{$small-mobile} {
         max-width: 450px;
     }
-    @media #{€extra-small-mobile} {
+    @media #{$extra-small-mobile} {
         max-width: 350px;
     }
 }
 
 
 
-@each €name,
-€color in €templateColors {
+@each $name,
+$color in $templateColors {
     // Background Color
-    .bg-#{€name} {
-        background-color: €color !important;
+    .bg-#{$name} {
+        background-color: $color !important;
     }
 
     // Text Color
-    .text-#{€name} {
-        color: €color !important;
+    .text-#{$name} {
+        color: $color !important;
     }
 }
 
 /* Font Weight */
-@for €i from 1 through 9 {
-    .fw-#{100 * €i} {
-        font-weight: 100 * €i;
+@for $i from 1 through 9 {
+    .fw-#{100 * $i} {
+        font-weight: 100 * $i;
     }
 }
 
@@ -269,14 +269,14 @@ hr {
 
         content: "";
 
-        background-color: €black;
+        background-color: $black;
     }
 }
 
-@for €i from 0 through 20 {
-    [data-overlay="#{€i * 5}"] {
+@for $i from 0 through 20 {
+    [data-overlay="#{$i * 5}"] {
         &::before {
-            opacity: 0.05 * €i;
+            opacity: 0.05 * $i;
         }
     }
 }
@@ -300,8 +300,8 @@ body.homepage-bg1 {
 
     &.offcanvas-open {
         padding-right: 32px !important;
-        @media #{€tablet-device,
-        €large-mobile
+        @media #{$tablet-device,
+        $large-mobile
         } {
             padding-right: 15px !important;
         }
@@ -318,8 +318,8 @@ body.homepage-bg1 {
 
     text-align: center;
 
-    color: €white;
-    background-color: €primary;
+    color: $white;
+    background-color: $primary;
 
     & i {
         line-height: 40px;
