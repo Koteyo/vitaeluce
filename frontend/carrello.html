@@ -285,10 +285,10 @@
                 <div class="col">
 
                     <div class="page-title">
-                        <h1 class="title">Scuola Domenicale</h1>
+                        <h1 class="title">Carrello</h1>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active">scuola-domenicale</li>
+                            <li class="breadcrumb-item active">Carrello</li>
                         </ul>
                     </div>
 
@@ -298,202 +298,125 @@
     </div>
     <!-- Page Title/Header End -->
 
-    <!-- Portfolio Section Start -->
-    <div class="section section-fluid section-padding">
+    <!-- Shopping Cart Section Start -->
+    <div class="section section-padding">
         <div class="container">
-                <div class="row row-cols-xl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 learts-mb-n30">
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 1</h4>
-                            </div>
+            <form class="cart-form" action="#">
+                <table class="cart-wishlist-table table">
+                    <thead>
+                        <tr>
+                            <th class="name" colspan="2">Articolo</th>
+                            <th class="price">Prezzo</th>
+                            <th class="quantity">Quantità</th>
+                            <th class="subtotal">Totale</th>
+                            <th class="remove">&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="thumbnail"><a href="shop-details.html"><img src="assets/images/product/cart-product-1.webp" alt="cart-product-1"></a></td>
+                            <td class="name"> <a href="shop-details.html">CD Vita e Luce</a></td>
+                            <td class="price"><span>€100.00</span></td>
+                            <td class="quantity">
+                                <div class="product-quantity">
+                                    <span class="qty-btn minus"><i class="ti-minus"></i></span>
+                                    <input type="text" class="input-qty" value="1">
+                                    <span class="qty-btn plus"><i class="ti-plus"></i></span>
+                                </div>
+                            </td>
+                            <td class="subtotal"><span>€100.00</span></td>
+                            <td class="remove"><a href="#" class="btn">×</a></td>
+                        </tr>
+                        <tr>
+                            <td class="thumbnail"><a href="shop-details.html"><img src="assets/images/product/cart-product-2.webp" alt="cart-product-2"></a></td>
+                            <td class="name"> <a href="shop-details.html">CD Vita e Luce</a></td>
+                            <td class="price"><span>€35.00</span></td>
+                            <td class="quantity">
+                                <div class="product-quantity">
+                                    <span class="qty-btn minus"><i class="ti-minus"></i></span>
+                                    <input type="text" class="input-qty" value="1">
+                                    <span class="qty-btn plus"><i class="ti-plus"></i></span>
+                                </div>
+                            </td>
+                            <td class="subtotal"><span>€35.00</span></td>
+                            <td class="remove"><a href="#" class="btn">×</a></td>
+                        </tr>
+                        <tr>
+                            <td class="thumbnail"><a href="shop-details.html"><img src="assets/images/product/cart-product-3.webp" alt="cart-product-3"></a></td>
+                            <td class="name"> <a href="shop-details.html">CD Vita e Luce</a></td>
+                            <td class="price"><span>€9.00</span></td>
+                            <td class="quantity">
+                                <div class="product-quantity">
+                                    <span class="qty-btn minus"><i class="ti-minus"></i></span>
+                                    <input type="text" class="input-qty" value="1">
+                                    <span class="qty-btn plus"><i class="ti-plus"></i></span>
+                                </div>
+                            </td>
+                            <td class="subtotal"><span>€9.00</span></td>
+                            <td class="remove"><a href="#" class="btn">×</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="row justify-content-between mb-n3">
+                    <div class="col-auto mb-3">
+                        <div class="cart-coupon">
+                            <input type="text" placeholder="Inserisci il tuo codice sconto">
+                            <button class="btn"><i class="fal fa-gift"></i></button>
                         </div>
                     </div>
+                    <div class="col-auto">
+                        <a class="btn btn-light btn-hover-dark mr-3 mb-3" href="shop.html">Continua a comprare</a>
+                        <button class="btn btn-dark btn-outline-hover-dark mb-3">Aggiorna il carrello</button>
+                    </div>
+                </div>
+            </form>
+            <div class="cart-totals mt-5">
+                <h2 class="title">Totale Carrello</h2>
+                <table>
+                    <tbody>
+                        <tr class="total">
+                            <th>Totale</th>
+                            <td><strong><span class="amount">€242.00</span></strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="404.html" class="btn btn-dark btn-outline-hover-dark">Acquista</a>
+            </div>
+        </div>
 
+    </div>
+    <!-- Shopping Cart Section End -->
 
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 2</h4>
-                            </div>
+    <footer>
+        <div class="footer2-section section section-padding">
+            <div class="container">
+                <div class="row learts-mb-n40">
+    
+                    <div class="col-lg-6 learts-mb-40">
+                        <div class="widget-about">
+                            <img src="assets/images/logo/logo-2.webp" alt="">
                         </div>
                     </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 3</h4>
-                            </div>
-                        </div>
+                    <div class="col-lg-2 learts-mb-40">
+                        <ul class="widget-list">
+                            <li> <i class="fab fa-twitter"></i> <a href="https://www.twitter.com/">Twitter</a></li>
+                            <li> <i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/">Facebook</a></li>
+                            <li> <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></li>
+                            <li> <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/">Youtube</a></li>
+                        </ul>
                     </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 4</h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 5</h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 6</h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 7</h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 8</h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 9</h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col learts-mb-30 mt-5">
-                        <div class="portfolio">
-                            <div class="thumbnail"><img src="assets/images/portfolio/portfolio-1.webp" alt=""></div>
-                            <div class="content">
-                                <a href="https://www.youtube.com/watch?v=hu_yZkto8M8&ab_channel=adi_mez_offcanaleevangelico" target="_blank">
-                                    <img src="assets/images/icons/button-play.webp" alt="">
-                                </a>
-                            </div>
-                            <div class="mt-2">
-                                <h4 class="title">Episodio 10</h4>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-
-                <div class="row learts-mt-50">
-                    <div class="col text-center">
-                        <a href="#" class="btn btn-dark btn-outline-hover-dark">Carica altri episodi</a>
-                    </div>
+    
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Footer -->
-<div class="footer2-section section section-padding">
-    <div class="container">
-        <div class="row learts-mb-n40">
-
-            <div class="col-lg-6 learts-mb-40">
-                <div class="widget-about">
-                    <img src="assets/images/logo/logo-2.webp" alt="">
-                </div>
+    
+        <div class="footer2-copyright section">
+            <div class="container">
+                <p class="copyright text-center">&copy; 2023 Made with <i class="far fa-heart"></i> in Verona</p>
             </div>
-            <div class="col-lg-2 learts-mb-40">
-                <ul class="widget-list">
-                    <li> <i class="fab fa-twitter"></i> <a href="https://www.twitter.com/">Twitter</a></li>
-                    <li> <i class="fab fa-facebook-f"></i> <a href="https://www.facebook.com/">Facebook</a></li>
-                    <li> <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></li>
-                    <li> <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/">Youtube</a></li>
-                </ul>
-            </div>
-
         </div>
-    </div>
-</div>
-
-<div class="footer2-copyright section">
-    <div class="container">
-        <p class="copyright text-center">&copy; 2023 Made with <i class="far fa-heart"></i> in Verona</p>
-    </div>
-</div>
-
+    </footer>
+    
     <!-- JS
 ============================================ -->
 

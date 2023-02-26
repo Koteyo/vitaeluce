@@ -105,3 +105,19 @@
     padding: 0% !important;
 }
 
+
+/* RICHIESTE */
+
+.special-title {
+    font-family: "Modesty";
+    font-size: 56px;
+    line-height: 1.25;
+    display: block;
+    margin-bottom: 5px;
+    color: #72a499;
+}
+
+.bigger
+{
+    font-size: 20px !important;
+}
