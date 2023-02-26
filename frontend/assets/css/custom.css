@@ -13,6 +13,22 @@
     max-height: 0px;
 }
 
+.home-p
+{
+    font-size: 20px !important;
+}
+
+.home-p a
+{
+    color: #72a499;
+    text-decoration: underline;
+}
+
+.home-p a:hover
+{
+    text-decoration: underline;
+}
+
 /* SLIDER CAPTION */
 .d-md-block
 {
@@ -63,8 +79,14 @@
 
     .home-p
     {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 350;
+        line-height: 26px;
+    }
+
+    .home-p a
+    {
+        font-weight: lighter;
     }
 
     .category-banner-1
