@@ -89,3 +89,19 @@
 {
     background-position: 50% 50%;
 }
+
+
+
+/* SCUOLA DOMENICALE */
+
+.portfolio
+{
+    text-align: center !important;
+    position: relative !important;
+}
+.portfolio .content
+{
+    opacity: 1 !important;
+    padding: 0% !important;
+}
+
