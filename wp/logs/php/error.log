@@ -1,0 +1,20 @@
+[28-Feb-2023 21:06:21 UTC] PHP Fatal error:  Uncaught Error: Array callback must have exactly two elements in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php:16
+Stack trace:
+#0 C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Luca D...')
+#2 C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\index.php(17): require('C:\\Users\\Luca D...')
+#3 {main}
+  thrown in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:39:42 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:39:42 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:39:43 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:39:44 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:39:44 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:39:44 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:39:44 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:40:03 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 16
+[28-Feb-2023 21:48:28 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 6
+[28-Feb-2023 21:48:29 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 6
+[28-Feb-2023 21:48:29 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 6
+[28-Feb-2023 21:48:30 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 6
+[28-Feb-2023 21:48:30 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Luca De Bar\Documents\Github\vitaeluce\vitaeluce\wp\app\public\wp-content\themes\vitaeluce\index.php on line 6
